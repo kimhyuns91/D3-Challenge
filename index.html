@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="D3_data_journalism/assets/css/style.css">
+  <link rel="stylesheet" href="D3_data_journalism/assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
+          <p>Scatter plot between the two data variables are shown to find  health risks facing particular demographics among United States. 
+            
+            For this Analysis, 2014 data is grabbed from  information from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System. </p>
+
+          <p>As expected poverty and lack of healthcare was directly related and householf income was indirectly related to lack of healthcare.
+            Essentially, people who made less money and were not on nutrious diet were lacking healthcare. The trend is most likely from the annual fee for healthcare.
+            Household with lower income most likely do not have enough money to support good healthcare for all household members.
+          </p>
+
+          <p>Odd trend comes from obesity vs income. It's indirectly correlated, where less income had higher obesity rate. One reason I can deduce is that, lower income households
+            are eating more less healthy food, i.e. fast food. Eating junk food at higher frequency would have caused weight to increase significantly.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="D3_data_journalism/assets/js/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  
+</body>
+
+</html>
